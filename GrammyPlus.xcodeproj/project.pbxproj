@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE0F7D9C1D818F26004AEC42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F7D9B1D818F26004AEC42 /* main.m */; };
+		BE0F7D9F1D818F26004AEC42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F7D9E1D818F26004AEC42 /* AppDelegate.m */; };
+		BE0F7DA21D818F26004AEC42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0F7DA11D818F26004AEC42 /* ViewController.m */; };
+		BE0F7DA51D818F26004AEC42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0F7DA31D818F26004AEC42 /* Main.storyboard */; };
+		BE0F7DA71D818F26004AEC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0F7DA61D818F26004AEC42 /* Assets.xcassets */; };
+		BE0F7DAA1D818F26004AEC42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0F7DA81D818F26004AEC42 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE0F7D971D818F26004AEC42 /* GrammyPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammyPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0F7D9B1D818F26004AEC42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE0F7D9D1D818F26004AEC42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE0F7D9E1D818F26004AEC42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE0F7DA01D818F26004AEC42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE0F7DA11D818F26004AEC42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE0F7DA41D818F26004AEC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0F7DA61D818F26004AEC42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0F7DA91D818F26004AEC42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE0F7DAB1D818F26004AEC42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0F7D941D818F26004AEC42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0F7D8E1D818F26004AEC42 = {
+			isa = PBXGroup;
+			children = (
+				BE0F7D991D818F26004AEC42 /* GrammyPlus */,
+				BE0F7D981D818F26004AEC42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0F7D981D818F26004AEC42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F7D971D818F26004AEC42 /* GrammyPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0F7D991D818F26004AEC42 /* GrammyPlus */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F7D9D1D818F26004AEC42 /* AppDelegate.h */,
+				BE0F7D9E1D818F26004AEC42 /* AppDelegate.m */,
+				BE0F7DA01D818F26004AEC42 /* ViewController.h */,
+				BE0F7DA11D818F26004AEC42 /* ViewController.m */,
+				BE0F7DA31D818F26004AEC42 /* Main.storyboard */,
+				BE0F7DA61D818F26004AEC42 /* Assets.xcassets */,
+				BE0F7DA81D818F26004AEC42 /* LaunchScreen.storyboard */,
+				BE0F7DAB1D818F26004AEC42 /* Info.plist */,
+				BE0F7D9A1D818F26004AEC42 /* Supporting Files */,
+			);
+			path = GrammyPlus;
+			sourceTree = "<group>";
+		};
+		BE0F7D9A1D818F26004AEC42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F7D9B1D818F26004AEC42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0F7D961D818F26004AEC42 /* GrammyPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0F7DAE1D818F26004AEC42 /* Build configuration list for PBXNativeTarget "GrammyPlus" */;
+			buildPhases = (
+				BE0F7D931D818F26004AEC42 /* Sources */,
+				BE0F7D941D818F26004AEC42 /* Frameworks */,
+				BE0F7D951D818F26004AEC42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrammyPlus;
+			productName = GrammyPlus;
+			productReference = BE0F7D971D818F26004AEC42 /* GrammyPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0F7D8F1D818F26004AEC42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Szemenkar";
+				TargetAttributes = {
+					BE0F7D961D818F26004AEC42 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BE0F7D921D818F26004AEC42 /* Build configuration list for PBXProject "GrammyPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0F7D8E1D818F26004AEC42;
+			productRefGroup = BE0F7D981D818F26004AEC42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0F7D961D818F26004AEC42 /* GrammyPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0F7D951D818F26004AEC42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0F7DAA1D818F26004AEC42 /* LaunchScreen.storyboard in Resources */,
+				BE0F7DA71D818F26004AEC42 /* Assets.xcassets in Resources */,
+				BE0F7DA51D818F26004AEC42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0F7D931D818F26004AEC42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0F7DA21D818F26004AEC42 /* ViewController.m in Sources */,
+				BE0F7D9F1D818F26004AEC42 /* AppDelegate.m in Sources */,
+				BE0F7D9C1D818F26004AEC42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE0F7DA31D818F26004AEC42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0F7DA41D818F26004AEC42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0F7DA81D818F26004AEC42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0F7DA91D818F26004AEC42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0F7DAC1D818F26004AEC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0F7DAD1D818F26004AEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0F7DAF1D818F26004AEC42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrammyPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csteknik.GrammyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE0F7DB01D818F26004AEC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrammyPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csteknik.GrammyPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0F7D921D818F26004AEC42 /* Build configuration list for PBXProject "GrammyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0F7DAC1D818F26004AEC42 /* Debug */,
+				BE0F7DAD1D818F26004AEC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0F7DAE1D818F26004AEC42 /* Build configuration list for PBXNativeTarget "GrammyPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0F7DAF1D818F26004AEC42 /* Debug */,
+				BE0F7DB01D818F26004AEC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0F7D8F1D818F26004AEC42 /* Project object */;
+}
